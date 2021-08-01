@@ -10,7 +10,7 @@ export default function LoginLink() {
     return (
       <button className="login-btn" onClick={()=>{
         userLogout();
-        // clearCart()  // <- once logout it will clear the cart
+        clearCart()  // <- once logout it will clear the cart
       }}>
         logout
       </button>
